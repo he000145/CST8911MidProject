@@ -8,10 +8,10 @@
 - Yiming He
 
 ## Duty 1 — Data & Blob (Ingestion) -> Yiming He
-![blob1](/blob1.png "create storage account")
-![blob2](/blob2advanced.png "advanced setting")
-![blob3](/blob3createContainer.png "create Container")
-![blob4](/blobl4uploadCVS.png "upload CVS")
+![blob1](/blob/blob1.png "create storage account")
+![blob2](/blob/blob2advanced.png "advanced setting")
+![blob3](/blob/blob3createContainer.png "create Container")
+![blob4](/blob/blobl4uploadCVS.png "upload CVS")
 
     For my part, I set up the Blob Storage input area for our project. I created a Storage Account called 8911midblob in West US. I originally planned to use East US, but under our current subscription East US was not available when creating the resource, so I chose West US as the closest workable option. Then I created a container named data and uploaded the two CSV files using the exact required paths:
 
