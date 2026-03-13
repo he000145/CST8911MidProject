@@ -79,7 +79,7 @@ Since it is a student project and for a sure period of time all participant were
 
 ![Role](<Role/Resource Group Overview.png>)
 
-*Caption: AzureDataProject-RG resource group containing all project resources*
+
 
 #### Screenshot 2: Adding Role Assignment
 
@@ -87,13 +87,13 @@ Since it is a student project and for a sure period of time all participant were
 
 ![Role](<Role/Role assignment2.png>)
 
-*Caption: Initiating role assignment from Access Control (IAM)*
+
 
 #### Screenshot 3: Selecting Contributor Role
 
 ![Role](<Role/Access Control.png>)
 
-*Caption: Final access role assignments showing all members as Contributors*
+
 
 ### Verification
 All role assignments were verified by:
@@ -139,23 +139,23 @@ We implemented multiple thresholds for graduated awareness:
 
 #### Screenshot 1: Budget Creation
 ![Cost](<Cost/Budget Creation.png>)
-*Caption: Creating $20 monthly budget for AzureDataProject-RG*
+
 
 #### Screenshot 2: Alert Conditions
 ![Cost](<Cost/Budget Creation.png>)
-*Caption: Multiple alert thresholds configured at 50%, 80%, 90%, 100%, and 120%*
+
 
 #### Screenshot 3: Action Group Configuration
 ![Cost](<Cost/Alert Conditions.png>)
-*Caption: Action group with email notifications for all team members*
+
 
 #### Screenshot 4: Completed Budget
 ![Cost](<Cost/Completed Budget.png>)
-*Caption: Final budget view showing all configured alerts*
+
 
 
 
 
 ### Azure Activity Log (Sample Audit)
 
-*Caption: Azure Activity Log tracks all actions by all contributors for accountability*
+
