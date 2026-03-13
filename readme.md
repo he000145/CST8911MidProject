@@ -125,7 +125,12 @@ I verified that the views were accessible and ready for visualization.
 
 I connected Power BI to the Azure SQL Database to import two types of data: raw tables containing transaction and customer information, and SQL views that contain the pre-transformed data for the dashboard.
 
-Technical Adjustment: I modified the SQL views to include Customer ID as the primary connector. This allows Power BI to create accurate relationships between tables and allows Power BI to correctly filter related data across visuals
+Technical Adjustment: I modified the SQL views to include Customer ID as the primary connector. This allows Power BI to create accurate relationships between tables and allows Power BI to correctly filter related data across visuals.
+
+### Step 2: Data Modeling
+
+After importing the data, I organized the tables and views into a relational model in Model View. This setup ensures that data in one table can correctly filter related data in others. I used Customer ID as the main key to create these relationships, this allows cross-filtering across the entire dashboard.
+
 
 
 ## Duty 5 — Integration + Security/RBAC + Cost + Documentation + Cleanup -> Bryan Edler
