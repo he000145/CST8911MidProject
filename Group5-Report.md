@@ -270,17 +270,17 @@ As the project owner, I performed complete cleanup after the final demo to prote
 
 ### Deletion Process
 #### Screenshot 2: Delete confirmation dialog
-![Cleanup](<Cleanup/Resource Group with all resources.png>)
+
 
 [Screenshot 3: Deletion in progress]
-![Cleanup](<Cleanup/Resource Group with all resources.png>)
+
 
 ### After Cleanup Verification
 [Screenshot 4: Empty resource group list]
-![Cleanup](<Cleanup/Resource Group with all resources.png>)
+
 
 [Screenshot 5: CLI verification]
-![Cleanup](<Cleanup/Resource Group with all resources.png>)
+
 
 ### Cost Impact
 [Screenshot 6: Final cost analysis]
