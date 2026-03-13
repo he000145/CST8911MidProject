@@ -27,18 +27,68 @@
 This section implements a data ingestion pipeline using Azure Data Factory.
 The pipeline extracts CSV files from Azure Blob Storage and loads the data into Azure SQL Database tables. Two datasets (customers and transactions) are processed using Copy activities. Basic error handling and pipeline monitoring are also demonstrated.
 ### 2.1 Create Azure Data Factory
-
+![Pipeline](<Duty 2/Step1-Azure Data Factory.png>)
 ### 2.2 Create Linked Services
+Linked services define the connection information required for Azure Data Factory to access external data sources.
+1. Created an Azure Blob Storage linked service to access CSV files stored in Blob Storage.
+![Pipeline](<Duty 2/2.21.png>)
+
+2. Created an Azure Blob Storage linked service to access CSV files stored in Blob Storage.
+![Pipeline](<Duty 2/2.22.png>)
 
 ### 2.3 Create Datasets
+Datasets define the structure and location of the data.
+1. Two datasets were created for the CSV files in Blob Storage:
+ds_csv_customers
+![Pipeline](<Duty 2/2.31.png>)
+ds_csv_transactions
+![Pipeline](<Duty 2/2.32.png>)
+2. Two datasets were also created for the destination SQL tables:
+ds_sql_customers
+![Pipeline](<Duty 2/2.33.png>)
+ds_sql_transactions
+![Pipeline](<Duty 2/2.34.png>)
 
 ### 2.4 Create Data Pipeline
+A pipeline named pl_blob_to_sql was created to move data from Blob Storage to Azure SQL Database.
+1. Two Copy activities were configured:
+![Pipeline](<Duty 2/2.41.png>)
+copy_customers
+![Pipeline](<Duty 2/2.42.png>)
+![Pipeline](<Duty 2/2.43.png>)
+![Pipeline](<Duty 2/2.44.png>)
+copy_transactions
+![Pipeline](<Duty 2/2.45.png>)
+![Pipeline](<Duty 2/2.46.png>)
+![Pipeline](<Duty 2/2.47.png>)
+
+2. Data flow:
+Blob Storage (CSV)  
+        ↓  
+Azure Data Factory Pipeline  
+        ↓  
+Azure SQL Database Tables  
+
+3. Basic error handling was enabled using fault tolerance settings to skip incompatible rows.
+![Pipeline](<Duty 2/2.48.png>)
+![Pipeline](<Duty 2/2.49.png>)
 
 ### 2.5 Data Pipeline publish all & run
+![Pipeline](<Duty 2/2.51.png>)
+![Pipeline](<Duty 2/2.52.png>)
 
 ### 2.6 Pipeline Execution and Monitoring
+The pipeline was executed using the Debug or Trigger Now option.
+
+Pipeline execution was monitored in the Monitor tab of Azure Data Factory.
+
+Both copy activities completed successfully.
+![Pipeline](<Duty 2/2.61.png>)
 
 ### 2.7 Data Verification
+To verify the data ingestion process, SQL queries were executed in Azure SQL Database.
+![Pipeline](<Duty 2/2.71.png>)
+![Pipeline](<Duty 2/2.72.png>)
 
 ## Duty 3 — SQL (Schema + T-SQL + Views) -> Shan Jiang
 ### Step 1: Database Provisioning
