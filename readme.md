@@ -133,6 +133,8 @@ Technical Adjustment: I modified the SQL views to include Customer ID as the pri
 
 After importing the data, I organized the tables and views into a relational model in Model View. This setup ensures that data in one table can correctly filter related data in others. I used Customer ID as the main key to create these relationships, this allows cross-filtering across the entire dashboard.
 
+![Data Connection](<Duty 4/Data Model.png>)
+
 ### Step 3: Dashboard Design
 
 I used the Azure Maps visual to create a Regional Sales Heatmap, where the size of each bubble represents the total sales volume. This allows users to quickly see which provinces, like Ontario and British Columbia, are performing best. I also added a Slicer Bar at the top, allowing users to select a province to instantly zoom the map and filters to show data for that area.
@@ -159,7 +161,7 @@ For this project, we assigned the **Contributor** role to all team members at th
 | Naveed Hossain | Duty 4 - Power BI | Contributor | AzureDataProject-RG |
 | Bryan Edler | Project Lead | Owner | Entire Subscription |
 
-Since it is a student project and for a sure period of time all participant were granted a contributor role
+Since it is a student project and for a sure period of time, all participants were granted a contributor role
 
 ### Implementation Evidence
 
@@ -200,7 +202,7 @@ While this deviates from the "least privilege" principle, it was appropriate for
 ##  COST MANAGEMENT - BUDGET ALERTS
 
 ### Why Budget Alerts Are Critical
-Since all team members have Contributor access, anyone could inadvertently create expensive resources. Budget alerts provide a safety net by notifying us before costs spiral out of control .
+Since all team members have Contributor access, anyone could inadvertently create expensive resources. Budget alerts provide a safety net by notifying us before costs spiral out of control.
 
 ### Budget Configuration
 
