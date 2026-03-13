@@ -129,11 +129,11 @@ I connected Power BI to the Azure SQL Database to import two types of data: raw 
 
 ![Data Connection](<Duty 4/SQL Database Connection.png>)
 
-Technical Adjustment: I modified the SQL views to include Customer ID as the primary connector. This allows Power BI to create accurate relationships between tables and allows Power BI to correctly filter related data across visuals.
+Technical Adjustment: I modified the SQL views to include Customer ID as the primary key. This allows Power BI to create accurate relationships between tables and allows Power BI to correctly filter related data across visuals.
 
 ### Step 2: Data Modeling
 
-After importing the data, I organized the tables and views into a relational model in Model View. This setup ensures that data in one table can correctly filter related data in others. I used Customer ID as the main key to create these relationships, this allows cross-filtering across the entire dashboard.
+After importing the data, I organized the tables and views into a relational model in Model View. This setup ensures that data in one table can correctly filter related data in others. I used Customer ID as the primary key to create these relationships, this allows cross-filtering across the entire dashboard.
 
 ![Data Modeling](<Duty 4/Data Model.png>)
 
@@ -151,7 +151,7 @@ By using Power BI Line Charts, a Monthly Sales Trend graph was created to monito
 
 ![Dashboard Design](<Duty 4/Monthly Sales Trends.png>)
 
-I used Doughnut Charts to show the customer base for the Age Group and Gender. The data shows that the Age Group of 30-50 has the largest market share of 41%, while the Gender shows that the majority of the customers are Male with a 62% market share. I also added Button Slicers that enable users to filter the entire dashboard based on the demographic. This is important as it helps users analyze the trends for a particular demographic group, such as the regional purchases based on the gender or age group.
+I used Doughnut Charts to show the customer base for the Age Group and Gender. The data shows that the Age Group of 30-50 has the largest market share of 41%, while the Gender visual shows that the majority of the customers are Male with a 62% market share. I also added Button Slicers that allow users to filter the entire dashboard based on the demographic. This is important as it helps users analyze the trends for a particular demographic group, such as the regional purchases based on the gender or age group.
 
 ![Dashboard Design](<Duty 4/Demographic Breakdown.png>)
 
