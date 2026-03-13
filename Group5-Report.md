@@ -265,26 +265,31 @@ We implemented multiple thresholds for graduated awareness:
 As the project owner, I performed complete cleanup after the final demo to protect subscription credits.
 
 ### Before Cleanup Evidence
+
 #### Screenshot 1: Resource Group with all resources
+
 ![Cleanup](<Cleanup/Resource Group with all resources.png>)
 
 ### Deletion Process
-#### Screenshot 2: Delete confirmation dialog
 
+#### Screenshot 2: Deletion in progress
 
-[Screenshot 3: Deletion in progress]
+![Cleanup](<Cleanup/Deletion in progress.png>)
+
+#### Screenshot 3: Delete confirmation dialog
+
+![Cleanup](<Cleanup/Delete confirmation dialog.png>)
+
 
 
 ### After Cleanup Verification
-[Screenshot 4: Empty resource group list]
 
+#### Screenshot 4: Empty resource group list
 
-[Screenshot 5: CLI verification]
+![Cleanup](<Cleanup/After Cleanup Verification.png>)
 
+![Cleanup](<Cleanup/After Cleanup Verification2.png>)
 
-### Cost Impact
-[Screenshot 6: Final cost analysis]
-*Caption: Total project cost under $5 - all resources deleted, no ongoing charges*
 
 ### Commands Used
 ```bash
