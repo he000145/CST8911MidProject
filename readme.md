@@ -69,7 +69,7 @@ For this project, we assigned the **Contributor** role to all team members at th
 | Jingjing Duan | Duty 2 - Data Factory | Contributor | AzureDataProject-RG |
 | Shan Jiang | Duty 3 - SQL Database | Contributor | AzureDataProject-RG |
 | Naveed Hossain | Duty 4 - Power BI | Contributor | AzureDataProject-RG |
-| [Owner Name] | Project Lead | Owner | Entire Subscription |
+| Bryan Edler | Project Lead | Owner | Entire Subscription |
 
 Since it is a student project and for a sure period of time all participant were granted a contributor role
 
