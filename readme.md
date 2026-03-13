@@ -133,11 +133,13 @@ Technical Adjustment: I modified the SQL views to include Customer ID as the pri
 
 After importing the data, I organized the tables and views into a relational model in Model View. This setup ensures that data in one table can correctly filter related data in others. I used Customer ID as the main key to create these relationships, this allows cross-filtering across the entire dashboard.
 
-![Data Connection](<Duty 4/Data Model.png>)
+![Data Modeling](<Duty 4/Data Model.png>)
 
 ### Step 3: Dashboard Design
 
 I used the Azure Maps visual to create a Regional Sales Heatmap, where the size of each bubble represents the total sales volume. This allows users to quickly see which provinces, like Ontario and British Columbia, are performing best. I also added a Slicer Bar at the top, allowing users to select a province to instantly zoom the map and filters to show data for that area.
+
+![Dashboard Design](<Duty 4/Regional Heat Map.png>)
 
 By using Power BI Line Charts, a Monthly Sales Trend graph was created to monitor sales over a period. This provides a clear revenue timeline, showing that sales peaked in January at $41,000 and then declined steadily throughout the months.
 
