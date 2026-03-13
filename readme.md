@@ -143,7 +143,7 @@ Dashboard View
 
 ![Dashboard Design](<Duty 4/Dashboard.png>)
 
-I used the Azure Maps visual to create a Regional Sales Heatmap, where the size of each bubble represents the total sales volume. This allows users to quickly see which provinces, such as Ontario and British Columbia, are performing best. I also added a Slicer Bar at the top, allowing users to select a province to instantly zoom the map and filters to show data for that region.
+I used the Azure Maps visual to create a Regional Sales Heatmap, where the size of each bubble represents the total volume of sales for a region. This allows users to quickly see which provinces, such as Ontario and British Columbia, are performing best. I also added a Slicer Bar at the top, allowing users to select a province to instantly zoom the map and filters to show data for that region.
 
 ![Dashboard Design](<Duty 4/Regional Heat Map.png>)
 
