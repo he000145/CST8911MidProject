@@ -129,7 +129,7 @@ I connected Power BI to the Azure SQL Database to import two types of data: raw 
 
 ![Data Connection](<Duty 4/SQL Database Connection.png>)
 
-Technical Adjustment: I modified the SQL views to include Customer ID as the primary key. This allows Power BI to create accurate relationships between tables and allows Power BI to correctly filter related data across visuals.
+(Technical Adjustment: I modified the SQL views to include Customer ID as the primary key. This allows Power BI to create accurate relationships between tables and allows Power BI to correctly filter related data across visuals.)
 
 ### Step 2: Data Modeling
 
@@ -143,7 +143,7 @@ Dashboard View
 
 ![Dashboard Design](<Duty 4/Dashboard.png>)
 
-I used the Azure Maps visual to create a Regional Sales Heatmap, where the size of each bubble represents the total sales volume. This allows users to quickly see which provinces, like Ontario and British Columbia, are performing best. I also added a Slicer Bar at the top, allowing users to select a province to instantly zoom the map and filters to show data for that area.
+I used the Azure Maps visual to create a Regional Sales Heatmap, where the size of each bubble represents the total sales volume. This allows users to quickly see which provinces, such as Ontario and British Columbia, are performing best. I also added a Slicer Bar at the top, allowing users to select a province to instantly zoom the map and filters to show data for that region.
 
 ![Dashboard Design](<Duty 4/Regional Heat Map.png>)
 
@@ -151,7 +151,7 @@ By using Power BI Line Charts, a Monthly Sales Trend graph was created to monito
 
 ![Dashboard Design](<Duty 4/Monthly Sales Trends.png>)
 
-I used Doughnut Charts to show the customer base for the Age Group and Gender. The data shows that the Age Group of 30-50 has the largest market share of 41%, while the Gender visual shows that the majority of the customers are Male with a 62% market share. I also added Button Slicers that allow users to filter the entire dashboard based on the demographic. This is important as it helps users analyze the trends for a particular demographic group, such as the regional purchases based on the gender or age group.
+I used Doughnut Charts to show the customer base for the age group and gender. The data shows that the Age Group of 30-50 has the largest market share of 41%, while the Gender visual shows that the majority of the customers are Male with a 62% market share. I also added Button Slicers that allow users to filter the entire dashboard based on the demographic. This is important as it helps users analyze the trends for a particular demographic group, such as the regional purchases based on the gender or age group.
 
 ![Dashboard Design](<Duty 4/Demographic Breakdown.png>)
 
