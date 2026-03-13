@@ -56,3 +56,59 @@ I verified that the views were accessible and ready for visualization.
 ## Duty 4 — Power BI (Dashboard) -> Naveed Hossain
 
 ## Duty 5 — Integration + Security/RBAC + Cost + Documentation + Cleanup -> Bryan Edler
+
+## 🔐 SECURITY & RBAC IMPLEMENTATION
+
+### Role Assignment Strategy
+For this academic project, we assigned the **Contributor** role to all team members at the resource group scope. This decision was made to facilitate collaboration and allow team members to assist each other when needed.
+
+### Access Control Matrix
+| Member | Duty | Role | Scope |
+|--------|------|------|-------|
+| Yiming He | Duty 1 - Data & Blob | Contributor | AzureDataProject-RG |
+| Jingjing Duan | Duty 2 - Data Factory | Contributor | AzureDataProject-RG |
+| Shan Jiang | Duty 3 - SQL Database | Contributor | AzureDataProject-RG |
+| Naveed Hossain | Duty 4 - Power BI | Contributor | AzureDataProject-RG |
+| [Owner Name] | Project Lead | Owner | Entire Subscription |
+
+Since it is a student project and for a sure period of time all participant were granted a contributor role
+
+### Implementation Evidence
+
+#### Screenshot 1: Resource Group Overview
+
+*Caption: AzureDataProject-RG resource group containing all project resources*
+
+#### Screenshot 2: Adding Role Assignment
+
+*Caption: Initiating role assignment from Access Control (IAM)*
+
+#### Screenshot 3: Selecting Contributor Role
+
+*Caption: Contributor role selected from built-in role list*
+
+#### Screenshot 4: Adding Team Members
+
+*Caption: All team members selected for Contributor role*
+
+#### Screenshot 5: Completed Role Assignments
+
+*Caption: Final role assignments showing all members as Contributors*
+
+### Verification
+All role assignments were verified by:
+1. Each team member confirming they can access the Azure portal
+2. Testing that members can view the resource group
+3. Confirming no one has Owner permissions except the project lead
+
+### Security Rationale
+While this deviates from the "least privilege" principle, it was appropriate for this context because:
+- Short project duration (3 weeks)
+- Small team of 4 known members
+- All resources will be deleted after demo
+- Budget alerts limit financial risk
+- Educational environment prioritizing learning over strict security
+
+### Azure Activity Log (Sample Audit)
+
+*Caption: Azure Activity Log tracks all actions by all contributors for accountability*
