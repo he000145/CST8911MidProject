@@ -156,6 +156,5 @@ We implemented multiple thresholds for graduated awareness:
 
 
 
-### Azure Activity Log (Sample Audit)
 
 
