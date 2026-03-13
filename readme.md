@@ -143,9 +143,16 @@ I used the Azure Maps visual to create a Regional Sales Heatmap, where the size 
 
 By using Power BI Line Charts, a Monthly Sales Trend graph was created to monitor sales over a period. This provides a clear revenue timeline, showing that sales peaked in January at $41,000 and then declined steadily throughout the months.
 
+![Dashboard Design](<Duty 4/Monthly Sales Trends.png>)
+
 I used Doughnut Charts to show the customer base for the Age Group and Gender. The data shows that the Age Group of 30-50 has the largest market share of 41%, while the Gender shows that the majority of the customers are Male with a 62% market share. I also added Button Slicers that enable users to filter the entire dashboard based on the demographic. This is important as it helps users analyze the trends for a particular demographic group, such as the regional purchases based on the Gender and Age Group.
 
+![Dashboard Design](<Duty 4/Demographic Breakdown.png>)
+
 At the top of the dashboard, I added KPI cards to display three key metrics: number of customers, total sales, and total orders. These cards update automatically when users select different provinces or demographics, giving a quick and accurate view of performance for each KPI segment.
+
+![Dashboard Design](<Duty 4/KPI Cards.png>)
+
 
 ## Duty 5 — Integration + Security/RBAC + Cost + Documentation + Cleanup -> Bryan Edler
 
