@@ -131,7 +131,15 @@ Technical Adjustment: I modified the SQL views to include Customer ID as the pri
 
 After importing the data, I organized the tables and views into a relational model in Model View. This setup ensures that data in one table can correctly filter related data in others. I used Customer ID as the main key to create these relationships, this allows cross-filtering across the entire dashboard.
 
+### Step 3: Dashboard Design
 
+I used the Azure Maps visual to create a Regional Sales Heatmap, where the size of each bubble represents the total sales volume. This allows users to quickly see which provinces, like Ontario and British Columbia, are performing best. I also added a Slicer Bar at the top, allowing users to select a province to instantly zoom the map and filters to show data for that area.
+
+By using Power BI Line Charts, a Monthly Sales Trend graph was created to monitor sales over a period. This provides a clear revenue timeline, showing that sales peaked in January at $41,000 and then declined steadily throughout the months.
+
+I used Doughnut Charts to show the customer base for the Age Group and Gender. The data shows that the Age Group of 30-50 has the largest market share of 41%, while the Gender shows that the majority of the customers are Male with a 62% market share. I also added Button Slicers that enable users to filter the entire dashboard based on the demographic. This is important as it helps users analyze the trends for a particular demographic group, such as the regional purchases based on the Gender and Age Group.
+
+At the top of the dashboard, I added KPI cards to display three key metrics: number of customers, total sales, and total orders. These cards update automatically when users select different provinces or demographics, giving a quick and accurate view of performance for each KPI segment.
 
 ## Duty 5 — Integration + Security/RBAC + Cost + Documentation + Cleanup -> Bryan Edler
 
