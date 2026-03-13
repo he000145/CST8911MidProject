@@ -147,7 +147,7 @@ I used the Power BI Azure Maps visual to create a Regional Sales Heatmap, where 
 
 ![Dashboard Design](<Duty 4/Regional Heat Map.png>)
 
-By using the Power BI Line Chart, I created a Monthly Sales Trend graph to monitor sales over a period. This provides a clear revenue timeline, showing that sales peaked in January at $41,000 and then declined steadily throughout the months.
+By using the Power BI Line Chart, I created a Monthly Sales Trends graph to monitor sales over a period. This provides a clear revenue timeline, showing that sales peaked in January at $41,000 and then declined steadily throughout the months.
 
 ![Dashboard Design](<Duty 4/Monthly Sales Trends.png>)
 
