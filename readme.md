@@ -57,10 +57,10 @@ I verified that the views were accessible and ready for visualization.
 
 ## Duty 5 — Integration + Security/RBAC + Cost + Documentation + Cleanup -> Bryan Edler
 
-## 🔐 SECURITY & RBAC IMPLEMENTATION
+##  SECURITY & RBAC IMPLEMENTATION
 
 ### Role Assignment Strategy
-For this academic project, we assigned the **Contributor** role to all team members at the resource group scope. This decision was made to facilitate collaboration and allow team members to assist each other when needed.
+For this project, we assigned the **Contributor** role to all team members at the resource group scope. This decision was made to facilitate collaboration and allow team members to assist each other when needed.
 
 ### Access Control Matrix
 | Member | Duty | Role | Scope |
@@ -77,23 +77,23 @@ Since it is a student project and for a sure period of time all participant were
 
 #### Screenshot 1: Resource Group Overview
 
+![Role](<Role/Resource Group Overview.png>)
+
 *Caption: AzureDataProject-RG resource group containing all project resources*
 
 #### Screenshot 2: Adding Role Assignment
+
+![Role](<Role/Role assignment1.png>)
+
+![Role](<Role/Role assignment2.png>)
 
 *Caption: Initiating role assignment from Access Control (IAM)*
 
 #### Screenshot 3: Selecting Contributor Role
 
-*Caption: Contributor role selected from built-in role list*
+![Role](<Role/Access Control.png>)
 
-#### Screenshot 4: Adding Team Members
-
-*Caption: All team members selected for Contributor role*
-
-#### Screenshot 5: Completed Role Assignments
-
-*Caption: Final role assignments showing all members as Contributors*
+*Caption: Final access role assignments showing all members as Contributors*
 
 ### Verification
 All role assignments were verified by:
@@ -104,7 +104,7 @@ All role assignments were verified by:
 ### Security Rationale
 While this deviates from the "least privilege" principle, it was appropriate for this context because:
 - Short project duration (3 weeks)
-- Small team of 4 known members
+- Small team of 5 known members
 - All resources will be deleted after demo
 - Budget alerts limit financial risk
 - Educational environment prioritizing learning over strict security
@@ -139,28 +139,21 @@ We implemented multiple thresholds for graduated awareness:
 
 #### Screenshot 1: Budget Creation
 ![Cost](<Cost/Budget Creation.png>)
-(<Cost/Budget Creation.png>)
 *Caption: Creating $20 monthly budget for AzureDataProject-RG*
 
 #### Screenshot 2: Alert Conditions
-[INSERT SCREENSHOT]
+![Cost](<Cost/Budget Creation.png>)
 *Caption: Multiple alert thresholds configured at 50%, 80%, 90%, 100%, and 120%*
 
 #### Screenshot 3: Action Group Configuration
-[INSERT SCREENSHOT]
+![Cost](<Cost/Alert Conditions.png>)
 *Caption: Action group with email notifications for all team members*
 
 #### Screenshot 4: Completed Budget
-[INSERT SCREENSHOT]
+![Cost](<Cost/Completed Budget.png>)
 *Caption: Final budget view showing all configured alerts*
 
-#### Screenshot 5: Cost Analysis with Budget
-[INSERT SCREENSHOT]
-*Caption: Cost analysis chart tracking actual spending against budget*
 
-### Sample Alert Email
-
-When a threshold is reached, team members receive an email like this:
 
 
 ### Azure Activity Log (Sample Audit)
