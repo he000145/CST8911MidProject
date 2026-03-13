@@ -127,6 +127,8 @@ I connected Power BI to the Azure SQL Database to import two types of data: raw 
 
 ![Data Connection](<Duty 4/Azure SQL Database Connection.png>)
 
+![Data Connection](<Duty 4/SQL Database Connection.png>)
+
 Technical Adjustment: I modified the SQL views to include Customer ID as the primary connector. This allows Power BI to create accurate relationships between tables and allows Power BI to correctly filter related data across visuals.
 
 ### Step 2: Data Modeling
