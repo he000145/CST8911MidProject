@@ -23,6 +23,22 @@
 
     For security, I did not enable anonymous/public access to the container. I used Microsoft Entra ID (RBAC) to control access, so only our team members and the Data Factory managed identity can read the blobs when needed. After uploading, I verified the folder structure and confirmed both files are under the raw/ folder in the container.
 ## Duty 2 — Data Factory (Pipelines) -> Jingjing Duan
+### Overview
+This section implements a data ingestion pipeline using Azure Data Factory.
+The pipeline extracts CSV files from Azure Blob Storage and loads the data into Azure SQL Database tables. Two datasets (customers and transactions) are processed using Copy activities. Basic error handling and pipeline monitoring are also demonstrated.
+### 2.1 Create Azure Data Factory
+
+### 2.2 Create Linked Services
+
+### 2.3 Create Datasets
+
+### 2.4 Create Data Pipeline
+
+### 2.5 Data Pipeline publish all & run
+
+### 2.6 Pipeline Execution and Monitoring
+
+### 2.7 Data Verification
 
 ## Duty 3 — SQL (Schema + T-SQL + Views) -> Shan Jiang
 ### Step 1: Database Provisioning
