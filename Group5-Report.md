@@ -160,7 +160,7 @@ At the top of the dashboard, I added KPI cards to display three key metrics: num
 ![Dashboard Design](<Duty 4/KPI Cards.png>)
 
 
-## Duty 5 — Integration + Security/RBAC + Cost + Documentation + Cleanup -> Bryan Edler
+## Duty 5 — Integration + Security/RBAC + Cost + Cleanup -> Bryan Edler
 
 ##  SECURITY & RBAC IMPLEMENTATION
 
@@ -256,6 +256,46 @@ We implemented multiple thresholds for graduated awareness:
 
 #### Screenshot 4: Completed Budget
 ![Cost](<Cost/Completed Budget.png>)
+
+
+## Cleanup
+
+
+### Cleanup Process
+As the project owner, I performed complete cleanup after the final demo to protect subscription credits.
+
+### Before Cleanup Evidence
+#### Screenshot 1: Resource Group with all resources
+![Cleanup](<Cleanup/Resource Group with all resources.png>)
+
+### Deletion Process
+#### Screenshot 2: Delete confirmation dialog
+![Cleanup](<Cleanup/Resource Group with all resources.png>)
+
+[Screenshot 3: Deletion in progress]
+![Cleanup](<Cleanup/Resource Group with all resources.png>)
+
+### After Cleanup Verification
+[Screenshot 4: Empty resource group list]
+![Cleanup](<Cleanup/Resource Group with all resources.png>)
+
+[Screenshot 5: CLI verification]
+![Cleanup](<Cleanup/Resource Group with all resources.png>)
+
+### Cost Impact
+[Screenshot 6: Final cost analysis]
+*Caption: Total project cost under $5 - all resources deleted, no ongoing charges*
+
+### Commands Used
+```bash
+# Delete resource group
+az group delete --name "group5-Midterm-Project" --yes --no-wait
+
+# Verify deletion
+az group show --name "group5-Midterm-Project" --output table
+# Returns: Resource group not found
+
+
 
 
 
