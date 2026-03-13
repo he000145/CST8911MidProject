@@ -151,7 +151,7 @@ By using the Power BI Line Chart, I created a Monthly Sales Trends graph to moni
 
 ![Dashboard Design](<Duty 4/Monthly Sales Trends.png>)
 
-I used Donut Charts to show the customer base for the age group and gender. The data shows that the age group of 30-50 has the largest market share of 41%, while the gender visual shows that the majority of the customers are Male with a 62% market share. I also added Button Slicers that allow users to filter the entire dashboard based on the demographic. This is important as it helps users analyze the trends for a particular demographic group, such as the regional purchases based on the gender or age group.
+I used Donut Charts to show the customer base for the age group and gender. The data shows that the age group of 30-50 has the largest market share of 41%, while the gender visual shows that the majority of the customers are male with a 62% market share. I also added Button Slicers that allow users to filter the entire dashboard based on the demographic. This is important as it helps users analyze the trends for a particular demographic group, such as the regional purchases based on the gender or age group.
 
 ![Dashboard Design](<Duty 4/Demographic Breakdown.png>)
 
