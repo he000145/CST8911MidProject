@@ -123,7 +123,7 @@ I verified that the views were accessible and ready for visualization.
 
 ### Step 1: Data Connection
 
-I connected Power BI to the Azure SQL Database to import two types of data: raw tables containing transaction and customer information, and SQL views that contain the pre-transformed data for the dashboard.
+I connected Power BI to the Azure SQL Database to import two types of data: raw tables containing the transaction and customer data, and SQL views that contain the pre-transformed data for the dashboard.
 
 ![Data Connection](<Duty 4/Azure SQL Database Connection.png>)
 
