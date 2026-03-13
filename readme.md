@@ -109,6 +109,59 @@ While this deviates from the "least privilege" principle, it was appropriate for
 - Budget alerts limit financial risk
 - Educational environment prioritizing learning over strict security
 
+## 💰 COST MANAGEMENT - BUDGET ALERTS
+
+### Why Budget Alerts Are Critical
+Since all team members have Contributor access, anyone could inadvertently create expensive resources. Budget alerts provide a safety net by notifying us before costs spiral out of control .
+
+### Budget Configuration
+
+| Setting | Value | Justification |
+|---------|-------|---------------|
+| **Scope** | AzureDataProject-RG | All project resources in one group |
+| **Budget Amount** | $20.00 | Protects owner's $100 credit while allowing flexibility |
+| **Reset Period** | at the due date of submission | the project will be deleted |
+| **Start Date** | March 1st | Covers entire project duration |
+| **Expiration Date** | 13 days | Ensures coverage through cleanup |
+
+### Alert Threshold Strategy
+
+We implemented multiple thresholds for graduated awareness:
+
+| Threshold | Alert Type | When Alert Fires | Action |
+|-----------|------------|------------------|--------|
+| **50% ($10)** | Actual | First warning | Review resource usage, check for unused resources |
+| **90% ($18)** | Actual | Critical warning | Prepare to stop non-essential pipelines |
+| **100% ($20)** | Actual | Budget reached | Stop all non-critical activities, prepare for cleanup |
+
+
+### Implementation Evidence
+
+#### Screenshot 1: Budget Creation
+(<Cost/Budget Creation.png>)
+*Caption: Creating $20 monthly budget for AzureDataProject-RG*
+
+#### Screenshot 2: Alert Conditions
+[INSERT SCREENSHOT]
+*Caption: Multiple alert thresholds configured at 50%, 80%, 90%, 100%, and 120%*
+
+#### Screenshot 3: Action Group Configuration
+[INSERT SCREENSHOT]
+*Caption: Action group with email notifications for all team members*
+
+#### Screenshot 4: Completed Budget
+[INSERT SCREENSHOT]
+*Caption: Final budget view showing all configured alerts*
+
+#### Screenshot 5: Cost Analysis with Budget
+[INSERT SCREENSHOT]
+*Caption: Cost analysis chart tracking actual spending against budget*
+
+### Sample Alert Email
+
+When a threshold is reached, team members receive an email like this:
+
+
 ### Azure Activity Log (Sample Audit)
 
 *Caption: Azure Activity Log tracks all actions by all contributors for accountability*
