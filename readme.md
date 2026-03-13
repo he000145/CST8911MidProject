@@ -109,7 +109,7 @@ While this deviates from the "least privilege" principle, it was appropriate for
 - Budget alerts limit financial risk
 - Educational environment prioritizing learning over strict security
 
-## 💰 COST MANAGEMENT - BUDGET ALERTS
+##  COST MANAGEMENT - BUDGET ALERTS
 
 ### Why Budget Alerts Are Critical
 Since all team members have Contributor access, anyone could inadvertently create expensive resources. Budget alerts provide a safety net by notifying us before costs spiral out of control .
@@ -138,6 +138,7 @@ We implemented multiple thresholds for graduated awareness:
 ### Implementation Evidence
 
 #### Screenshot 1: Budget Creation
+![Cost](<Cost/Budget Creation.png>)
 (<Cost/Budget Creation.png>)
 *Caption: Creating $20 monthly budget for AzureDataProject-RG*
 
